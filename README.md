@@ -13,14 +13,18 @@ You can "go to" your favorite websites easily. \
 
 ### Initial Setup
 * Create a `goto.json` file and populate it like this - 
-    * `{`\
-          `"Key1" : "Website1 Link",` \
-          `"Key2" : "Website2 Link"` \
-      `}`
+    ```
+    { 
+        "Key1" : "Website1 Link",
+        "Key2" : "Website2 Link" 
+    }
+    ```
 
 ### Running the app 
-* `go build .\goto.go` \
-`.\goto.exe -key=<YourKeyHere>`
+ - ```
+    go build .\goto.go \
+    .\goto.exe -key=<YourKeyHere>
+    ```
 
 
 ### Note
